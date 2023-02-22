@@ -1,8 +1,6 @@
-import bg from '../assets/logo.png';
+import opticalSalonLogo from '../assets/logo.png';
 
 
 export default {
-  logo,
-  glasses,
-  sunglasses
+  opticalSalonLogo
 };
