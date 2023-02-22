@@ -78,4 +78,8 @@ width: 50px;
     .app__navbar-links {
         display: none;
     }
+
+    .app__navbar-smallscreen {
+        display: flex;
+    }
 }
