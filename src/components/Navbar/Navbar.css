@@ -14,7 +14,7 @@
 }
 
 .app__navbar-logo img {
-width: 150px;
+width: 50px;
 }
 
 .app__navbar-links {
@@ -32,4 +32,19 @@ width: 150px;
 
 .app__navbar-links li:hover {
     color: var(--color-gray);
+}
+
+.app__navbar-visit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.app__navbar-visit a {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.app__navbar-visit a:hover {
+    border-bottom: 1px solid var(--color-golden);
 }
