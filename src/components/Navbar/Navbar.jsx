@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {GiHamburgerMenu} from "react-icons/gi";
 import {GrClose} from "react-icons/gr";
-import images from "../../constants/images";
+import {images} from "../../constants";
 import './Navbar.css';
 
 const Navbar = () => {
