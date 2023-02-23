@@ -1,6 +1,5 @@
 import React from 'react';
 // import {women01} from "../../constants/images";
-
 import './Header.css';
 import {SubHeading} from "../../components";
 
