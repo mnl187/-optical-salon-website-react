@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {GiHamburgerMenu} from "react-icons/gi";
 import {GrClose} from "react-icons/gr";
-import {images} from "../../constants";
+import {logo} from "../../constants/images";
 import './Navbar.css';
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
-                <img src={images.opticalSalonLogo} alt="optical salon logo"/>
+                <img src={logo} alt="optical salon logo"/>
             </div>
             <ul className="app__navbar-links">
                 <li className="p__opensans"><a href="#home">Home</a></li>
