@@ -59,7 +59,7 @@
     cursor: pointer;
 }
 
-.p__cormorant {
+.p__montserrat {
   font-family: var(--font-base);
   color: var(--color-white);
   font-weight: 700;
@@ -80,7 +80,7 @@
   font-size: 16px;
 }
 
-.headtext__cormorant {
+.headtext__montserrat {
   font-family: var(--font-base);
   color: var(--color-golden);
   font-size: 64px;
@@ -105,7 +105,7 @@
     line-height: 50px;
   }
 
-  .headtext__cormorant {
+  .headtext__montserrat {
     font-size: 150px;
     line-height: 210px;
   }
@@ -158,11 +158,11 @@
     font-size: 12px;
   }
 
-  .p__cormorant {
+  .p__montserrat {
     font-size: 19px;
   }
 
-  .headtext__cormorant {
+  .headtext__montserrat {
     font-size: 45px;
     line-height: 70px;
   }
