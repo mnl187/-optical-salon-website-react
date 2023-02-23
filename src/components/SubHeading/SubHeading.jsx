@@ -1,10 +1,10 @@
 import React from 'react';
-import {women01} from "../../constants/images";
+import {IoGlassesOutline} from "react-icons/io5";
 
 const SubHeading = ({title}) => (
   <div style={{ marginBottom: '1rem' }}>
     <p className="p__cormorant">{title}</p>
-      <img src={women01} alt="women image" className="women01__img"/>
+      <IoGlassesOutline/>
   </div>
 );
 
