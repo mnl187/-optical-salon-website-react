@@ -8,6 +8,8 @@ const Header = () => (
         <div className="app__wrapper_info">
             <SubHeading title="Salon Optyczny M - Twoje doskonałe widzenie"/>
             <h1 className="app__header-h1">Klucz do Najlepszych Okularów</h1>
+            <p className="p__opensans" style={{margin: '2rem 0'}}>Odwiedź nasz Salon Optyczny i ciesz się perfekcyjnym widzeniem! Oferujemy najwyższej jakości okulary i profesjonalną opiekę nad Twoimi oczami. Przekonaj się już dziś!</p>
+            <button type="button" className="custom__button">Przeglądaj usługi</button>
         </div>
         <div className="app__wrapper_img">
 
