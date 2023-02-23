@@ -14,7 +14,7 @@
 }
 
 .app__navbar-logo img {
-width: 50px;
+    width: 50px;
 }
 
 .app__navbar-links {
@@ -39,6 +39,7 @@ width: 50px;
     justify-content: flex-end;
     align-items: center;
 }
+
 .app__navbar-visit a {
     margin: 0 1rem;
     text-decoration: none;
@@ -53,7 +54,7 @@ width: 50px;
     display: none;
 }
 
-.app__navbar-smallscreen-overlay {
+.app__navbar-smallscreen_overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -91,6 +92,13 @@ width: 50px;
     color: var(--color-white);
 }
 
+@media screen and (max-width: 2000px) {
+    .app__navbar-logo img {
+        width: 100px;
+    }
+
+}
+
 @media screen and (max-width: 1150px) {
     .app__navbar-links {
         display: none;
@@ -98,5 +106,19 @@ width: 50px;
 
     .app__navbar-smallscreen {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__navbar {
+        padding: 1rem;
+    }
+
+    .app__navbar-visit {
+        display: none;
+    }
+
+    .app__navbar-logo img {
+        width: 50px;
     }
 }
