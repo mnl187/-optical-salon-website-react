@@ -4,7 +4,7 @@ import './Services.css';
 
 const Services = () => (
   <div>
-    SpecialMenu
+      Services
   </div>
 );
 
