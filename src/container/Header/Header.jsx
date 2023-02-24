@@ -1,5 +1,5 @@
 import React from 'react';
-// import {women01} from "../../constants/images";
+import {women01} from "../../constants/images";
 import './Header.css';
 import {SubHeading} from "../../components";
 
@@ -12,6 +12,7 @@ const Header = () => (
             <button type="button" className="custom__button">Przeglądaj usługi</button>
         </div>
         <div className="app__wrapper_img">
+            <img src={women01} alt="header img"/>
 
         </div>
 

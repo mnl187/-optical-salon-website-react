@@ -59,7 +59,7 @@
     cursor: pointer;
 }
 
-.p__montserrat {
+.p__oswald {
   font-family: var(--font-base);
   color: var(--color-white);
   font-weight: 700;
@@ -80,7 +80,7 @@
   font-size: 16px;
 }
 
-.headtext__montserrat {
+.headtext__oswald {
   font-family: var(--font-base);
   color: var(--color-golden);
   font-size: 64px;
@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 2000px) {
   .custom__button,
-  .p__cormorant {
+  .p__oswald {
     font-size: 37px;
     line-height: 67px;
   }
@@ -105,7 +105,7 @@
     line-height: 50px;
   }
 
-  .headtext__montserrat {
+  .headtext__oswald {
     font-size: 150px;
     line-height: 210px;
   }
@@ -144,7 +144,7 @@
     padding: 4rem 2rem;
   }
   
-  .p__cormorant {
+  .p__oswald {
     font-size: 21px;
   }
 
@@ -158,11 +158,11 @@
     font-size: 12px;
   }
 
-  .p__montserrat {
+  .p__oswald {
     font-size: 19px;
   }
 
-  .headtext__montserrat {
+  .headtext__oswald {
     font-size: 45px;
     line-height: 70px;
   }
