@@ -7,9 +7,9 @@ import './AboutUs.css';
 
 const AboutUs = () => (
     <div className="app__aboutus app__bg flex__center section__padding" id="about">
-        <div className="app__aboutus-overlay flex__center">
-            <img src={ai_women_sunglasses01} alt="obrazek kobiety w okularach słonecznych"/>
-        </div>
+        {/*<div className="app__aboutus-overlay flex__center">*/}
+        {/*    <img src={ai_women_sunglasses01} alt="obrazek kobiety w okularach słonecznych"/>*/}
+        {/*</div>*/}
 
         <div className="app__aboutus-content flex__center">
             <div className="app__aboutus-content_about">
@@ -26,7 +26,9 @@ const AboutUs = () => (
                 <button type="button" className="custom__button">Dowiedz się wiecej</button>
             </div>
 
-            <div className="app__aboutus-content_img flex__center"></div>
+            <div className="app__aboutus-content_img flex__center">
+                <img src={ai_women_sunglasses01} alt="obrazek kobiety w okularach słonecznych"/>
+            </div>
             <div className="app__aboutus-content_about">
                 <h1 className="headtext__oswald">O nas</h1>
                 <IoGlassesOutline color="fff" className="glasses-img"/>
